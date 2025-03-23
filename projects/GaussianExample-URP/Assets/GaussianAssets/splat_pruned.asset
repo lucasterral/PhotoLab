@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33b71fae31e6c7d438e8566dc713e666, type: 3}
+  m_Name: splat_pruned
+  m_EditorClassIdentifier: 
+  m_FormatVersion: 20231020
+  m_SplatCount: 168046
+  m_BoundsMin: {x: -2.2800922, y: -1.5661223, z: -2.216448}
+  m_BoundsMax: {x: 2.3351653, y: 1.525833, z: 2.623852}
+  m_DataHash:
+    serializedVersion: 2
+    Hash: 804fce5eb45cf07b3cdc7bb7bdbace9d
+  m_PosFormat: 2
+  m_ScaleFormat: 2
+  m_SHFormat: 3
+  m_ColorFormat: 2
+  m_PosData: {fileID: 4900000, guid: 3a06dd16969ae49d29dfca93c82a8ba9, type: 3}
+  m_ColorData: {fileID: 4900000, guid: e4e050c10a5414123b72c76611b11bd9, type: 3}
+  m_OtherData: {fileID: 4900000, guid: e32407237a5d8488c9090c9e9a5077b6, type: 3}
+  m_SHData: {fileID: 4900000, guid: dd39619aa8b3d42be8f8f105ddcded7c, type: 3}
+  m_ChunkData: {fileID: 4900000, guid: dc17b577111714bd9986a9ceb29204ff, type: 3}
+  m_Cameras: []
