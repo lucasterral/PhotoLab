@@ -18,19 +18,19 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/projects/GaussianExample-URP
+/Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/PhotoLab/projects/GaussianExample-URP
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63793
+61738
 -job-worker-count
 5
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: /Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/projects/GaussianExample-URP
-/Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/projects/GaussianExample-URP
+Successfully changed project path to: /Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/PhotoLab/projects/GaussianExample-URP
+/Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/PhotoLab/projects/GaussianExample-URP
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -66,12 +66,12 @@ Successfully changed project path to: /Users/lucasterral/Downloads/darkroom/Unit
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8374874688]  Target information:
+Player connection [8649978432]  Target information:
 
-Player connection [8374874688]  * "[IP] 192.168.1.213 [Port] 0 [Flags] 2 [Guid] 4011265792 [EditorId] 4011265792 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8649978432]  * "[IP] 10.36.226.2 [Port] 0 [Flags] 2 [Guid] 2842762587 [EditorId] 2842762587 [Version] 1048832 [Id] OSXEditor(0,MacBook-Pro-7.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8374874688] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8374874688] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8649978432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8649978432] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -86,7 +86,7 @@ Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.23f1 (1c4764c07fb4)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/projects/GaussianExample-URP/Assets
+[Subsystems] Discovering subsystems at path /Users/lucasterral/Downloads/darkroom/UnityGaussianSplatting/PhotoLab/projects/GaussianExample-URP/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
  preferred device: Apple M3 Pro (high power)
 Metal devices available: 1
@@ -97,46 +97,46 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56941
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.23f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002641 seconds.
-- Loaded All Assemblies, in  0.269 seconds
+Registered in 0.003383 seconds.
+- Loaded All Assemblies, in  0.262 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 67 ms
+Android Extension - Scanning For ADB Devices 57 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.429 seconds
-Domain Reload Profiling: 698ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.404 seconds
+Domain Reload Profiling: 667ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (113ms)
-		LoadAssemblies (93ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (110ms)
-			TypeCache.Refresh (109ms)
-				TypeCache.ScanAssembly (99ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (429ms)
+	FinalizeReload (405ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (401ms)
+		SetupLoadedEditorAssemblies (377ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (151ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (167ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
+			InitializePlatformSupportModulesInManaged (134ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (157ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -145,40 +145,40 @@ Domain Reload Profiling: 698ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.698 seconds
+- Loaded All Assemblies, in  0.628 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.494 seconds
-Domain Reload Profiling: 1192ms
-	BeginReloadAssembly (460ms)
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 1099ms
+	BeginReloadAssembly (373ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (24ms)
+	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (185ms)
-		LoadAssemblies (130ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (88ms)
-			TypeCache.Refresh (62ms)
-				TypeCache.ScanAssembly (53ms)
+		AnalyzeDomain (84ms)
+			TypeCache.Refresh (58ms)
+				TypeCache.ScanAssembly (51ms)
 			BuildScriptInfoCaches (20ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (494ms)
+	FinalizeReload (471ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (341ms)
+		SetupLoadedEditorAssemblies (326ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (22ms)
-			ProcessInitializeOnLoadAttributes (253ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
+			BeforeProcessingInitializeOnLoad (20ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -188,15 +188,15 @@ Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 196 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3087 unused Assets / (3.6 MB). Loaded Objects now: 3895.
-Memory consumption went from 156.6 MB to 153.0 MB.
-Total: 4.787583 ms (FindLiveObjects: 0.195250 ms CreateObjectMapping: 0.064000 ms MarkObjects: 3.387791 ms  DeleteObjects: 1.140125 ms)
+Unloading 3087 unused Assets / (3.8 MB). Loaded Objects now: 3896.
+Memory consumption went from 157.0 MB to 153.2 MB.
+Total: 4.696291 ms (FindLiveObjects: 0.237125 ms CreateObjectMapping: 0.067333 ms MarkObjects: 3.578667 ms  DeleteObjects: 0.812833 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 527684.784775 seconds.
-  path: Assets/GaussianAssets/splat_pruned.asset
-  artifactKey: Guid(809edeef84b5b435ea7deaf66b825139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GaussianAssets/splat_pruned.asset using Guid(809edeef84b5b435ea7deaf66b825139) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dd255bf132a1009d3e4973978bb25ee') in 0.01680325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+  Time since last request: 96026.670886 seconds.
+  path: Assets/Models
+  artifactKey: Guid(3a1ac6318ca734ad2ad0a173c9ea5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(3a1ac6318ca734ad2ad0a173c9ea5092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23753b22894046197cb2ab969e6dc9e5') in 0.002491792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
